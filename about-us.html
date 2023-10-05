@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Ice Cream Cafe</title>
+    <link rel="shortcut icon" href="img/ice-cream-fav-icon.png" type="image/x-icon" />
+
+    <style>
+       h1 {
+            color:#FFFFFF;
+            font-size: 34px;
+
+    }
+
+        h2 {
+            color:#FFFFFF;
+            font-size: 30px;
+
+        }
+    
+       p {
+            color:#E0DDDD;
+            font-size: 18px;
+        
+       }
+       body {
+            background-color: #B87390;
+        
+       }
+
+       header {
+            background-color: #A55376;
+            text-align: center;
+        
+       }
+
+        .advantages {
+            width: 25%;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+       .advantages__heading {
+            color:#FFFFFF;
+            font-size: 30px;
+            margin-bottom: 10px;
+       }
+
+       .about-us {
+            width: 25%;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+       }
+        
+       .block {
+            display: flex;
+       }
+
+       .about_us {
+            flex: 1;
+        
+       }
+        
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <nav data-include="header-nav.partial.html"></nav>
+        <h1 class="header__title">About Us</h1>
+    </header>
+    <main>
+        <div class="block">
+            <div class="about-us">
+                <h2 class="about-us__text">Our mission is to offer the best experience and the tastiest desserts & ice
+                    cream to our clients.</h2>
+            </div>
+            <div class="about-us">
+                <p class="about-us__text">We are Mr. Snowman, a small yet cozy NY cafe network. We have been handcrafting
+                    the most delicious ice cream since 1999,
+                    and these days, our menu is more varied than ever before.
+
+                    Come to us to enjoy various ice cream flavors and try our seasonal and holiday desserts and cold
+                    drinks like iced coffee
+                    and milkshakes.</p>
+            </div>
+            <div class="about-us">
+                <p class="about-us__text">If you want to have a great time with friends or family, book a table in our
+                    cafe. Or pop into one of our little ice
+                    cream shops to take your favorite flavors with you.
+
+                    We have a great network of 18+ ice cream shops, and their number is increasing. Also, you can find
+                    our ice cream on
+                    other cafes' menus.</p>
+            </div>
+        </div>
+
+
+        <div class="block">
+            <div class="advantages">
+                <img  src="img/apron.svg" alt="Apron" width="26" height="26">
+                <h3 class="advantages__heading">Delicious Ice Cream</h3>
+                <p class="advantages__text">Dozens of types of ice cream made from natural ingredients.</p>
+            </div>
+            <div class="advantages">
+                <img src="img/furniture.svg" alt="Furniture" width="26" height="26">
+                <h3 class="advantages__heading">Cozy Atmosphere</h3>
+                <p class="advantages__text">Our cafe is excellent for meeting with friends or familly.</p>
+            </div>
+            <div class="advantages">
+                <img src="img/cash_machine.svg" alt="Cash Machine" width="26" height="26">
+                <h3 class="advantages__heading">Table Reservation</h3>
+                <p class="advantages__text">Make sure you've booked a table on this website.</p>
+            </div>
+            <div class="advantages">
+                <img src="img/dessert.svg" alt="Dessert" width="26" height="26">
+                <h3 class="advantages__heading">Top Desserts</h3>
+                <p class="advantages__text">We offer not only ice cream but also many tasty desserts with cream.</p>
+            </div>
+
+        </div>
+        <div class="foto-video">
+            <img src="img/foto_video.png" alt="Foto" width="949" height="620" >
+        </div>
+    </main>
+
+
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+</body>
+
+</html>
