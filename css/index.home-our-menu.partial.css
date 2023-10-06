@@ -1,0 +1,41 @@
+/*font-family*/
+.featured-desserts-treats h2 {
+    font-family: 'Leckerli One', cursive;
+}
+
+#home-our-menu p,
+#home-our-menu button {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+#home-our-menu .featured-desserts-treats,
+#home-our-menu h3 {
+    font-family: 'Dangrek', cursive;
+}
+/*font-family*/
+
+.menu-headers p {
+    color: var(--text-color-alternative);
+}
+
+.menu-position p{
+    color: var(--price-color);
+}
+
+.menu-position {
+    background-color: var(--background-color-dark);
+    margin: auto;
+}
+
+#home-our-menu button {
+    background-color: transparent;
+    color: var(--text-color);
+    border: none;
+}
+
+.menu-pages {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
