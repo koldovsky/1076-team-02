@@ -60,6 +60,10 @@
     padding: 5%;
 }
 
+.menu-position img {
+    margin: auto;
+}
+
 .menu-position-text {
     display: flex;
     flex-direction: row;
