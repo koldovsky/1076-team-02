@@ -49,7 +49,7 @@
     display: inline-block;
     padding: 10px 20px;
     background-color: #32264b;
-    color: var(--text-color);
+    color: #fff;
     text-decoration: none;
     font-size: 15px;
     cursor: pointer;
