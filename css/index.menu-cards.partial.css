@@ -30,6 +30,17 @@ background-color {
 	text-aline: center;
 	vertical-aline: baseline;
 }
+
+cart__button {
+	box-sizing: border-box;
+	display: block;
+	color: rgb(255, 255, 255);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	text-aline: center;
+}
 .card__imag {
 	 margin: auto;
     max-width: 100%;
