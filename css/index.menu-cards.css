@@ -6,7 +6,7 @@
 .menu-card.card {
 }
 
-.card.img {
+.menu-card.card.img {
 	padding: 30px;
 	border-radius: 10px;
 }
@@ -22,7 +22,7 @@
 
 .card__button {
 	display: flex;
-	padding: 10px 20 px;
+	padding: 10px 20px;
 	color: rgb(255, 255, 255);
 	font-family: 'Source Sans 3', sans-serif;
 	font-size: 15px;
