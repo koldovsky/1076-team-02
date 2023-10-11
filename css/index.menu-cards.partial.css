@@ -1,8 +1,11 @@
-.menu__cards
+.menu__cards {
+}
 
-.menu-card.card
+.menu-card.card {
+}
 
-.card.img
+.card.img {
+}
 
 .card-title {
 	display: flex;
@@ -11,7 +14,7 @@
 	font-size: 30px;
 	font-weight: 400;
 	text-aline: center;
-	}
+}
 
 .card__button {
 	display: flex;
@@ -24,7 +27,7 @@
 	text-aline: center;
 	cursor: pointer;
 	border-radius: 35px;
-	}
+}
 
 	
 	
