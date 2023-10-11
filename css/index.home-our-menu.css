@@ -1,0 +1,94 @@
+/*font-family*/
+#home-our-menu h2 {
+    font-family: 'Leckerli One', cursive;
+    font-size: 14px;
+}
+#home-our-menu p,
+#home-our-menu button {
+    font-family: 'Source Sans 3', sans-serif;
+}
+#home-our-menu .featured-desserts-treats,
+#home-our-menu h3 {
+    font-family: 'Dangrek', cursive;
+}
+/*font-family*/
+
+.home-our-menu {
+    padding: 60px 24px;
+    text-align: center;
+}
+
+.menu-headers p {
+    color: var(--text-color-alternative);
+    font-size: 20px;
+}
+
+.menu-headers .featured-desserts-treats {
+    font-size: 34px;
+    color: var(--text-color);
+}
+.menu-nav {
+    display: inline-flex;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--text-color-alternative);
+    width: 100%;
+}
+
+#home-our-menu button {
+    background-color: transparent;
+    color: var(--text-color);
+    font-size: 18px;
+    border: none;
+    padding: 15px 20px;
+}
+
+#home-our-menu button:hover {
+    border-bottom: 3px solid rgb(236, 151, 196);
+}
+
+.menu-pages {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-content: space-around;
+}
+
+.menu-position {
+    background-color: var(--background-color-dark);
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.menu-position img {
+    margin: auto;
+}
+
+.menu-position-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 30px;
+}
+
+.menu-position h3 {
+    font-size: 22px;
+}
+
+.menu-position p{
+    color: var(--price-color);
+    font-size: 22px;
+}
+
+@media (min-width: 768px){
+    .menu-pages {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px){
+    .menu-pages {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

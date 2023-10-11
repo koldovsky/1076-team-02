@@ -17,7 +17,6 @@
     --about-us-header-color: #FFFFFF;
     --about-us-text-color:  #E0DDDD;
     scroll-behavior: smooth;
-    text-align: center;
     background-color: var(--background-color);
     color: var(--text-color);
 }
@@ -25,5 +24,9 @@
 img {
     display: block;
     width: 100%;
-    margin: auto;
+}
+
+.global-container {
+    max-width: 1200px;
+    margin:auto;
 }
