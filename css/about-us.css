@@ -1,0 +1,44 @@
+@import url(global.css);
+@import url(header-nav.css);
+
+.about-us__header {
+    background-color: var(--about-us-background-color-dark);
+}
+
+.header__title {
+    text-align: center;
+}
+
+.about-us__nav-header{
+    background-color: var(--about-us-background-color-dark);
+    padding: 70px 0 90px;
+}
+
+.about-us, .advantages, .foto-video {
+    background-color: var(--about-us-background-color-light);
+}
+
+.header__title {
+    font-family: "Dangrek", cursive;
+    text-align: center;
+    font-size: 34px;
+}
+
+.about-us__text_part-bold {
+    font-family: "Dangrek", cursive;
+    font-size: 30px;
+    padding-top: 90px;
+    line-height: normal;
+}
+
+.about-us__text_part, .advantages__text {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    color: var(--about-us-text-color); 
+    line-height: normal;
+}
+
+.advantages__heading {
+    font-family: "Dangrek", cursive;
+    font-size: 22px;
+}
