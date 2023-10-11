@@ -1,13 +1,5 @@
 @madia url('https://fonts.googleapis.com/css2?family=Dangrek&family=Leckerli+One&family=Source+Sans+3:wght@600&display=swap');
 
-.menu__card-card {
-	box-sizing: border-box;
-	display: block;
-	font-size: 18px;
-	font-weight: 400;
-	text-aline: center;
-}
-
 .card-title {
 	box-sizing: border-box;
 	display: inline;
@@ -19,7 +11,7 @@
 	vertical-aline: baseline;
 }
 
-.card__button {
+.card-button {
 	box-sizing: border-box;
 	display: block;
 	color: rgb(255, 255, 255);
@@ -30,15 +22,6 @@
 	text-aline: center;
 }
 
-.card__imag img {
-    	display: block;
-    	margin: auto;	
-   	max-width: 50%;
-    	max-height: 50%;
-    	width: auto;
-    	height: auto;
-    	border-radius: 6px;
-}
 	
 	
 
