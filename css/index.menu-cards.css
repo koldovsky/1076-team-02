@@ -1,13 +1,17 @@
 .menu__cards {
+	display: flex;
+	gap: 50px;
 }
 
 .menu-card.card {
 }
 
 .card.img {
+	padding: 30px;
+	border-radius: 10px;
 }
 
-.card-title {
+.menu__card-title {
 	display: flex;
 	color: rgb(255, 255, 255);
 	font-family: 'Dangrek', cursive;
