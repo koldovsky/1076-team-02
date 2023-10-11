@@ -1,0 +1,26 @@
+@import url(global.css);
+
+.about-us__header {
+    background-color: var(--about-us-background-color-dark);
+    
+}
+.about-us__nav-header{
+    background-color: var(--about-us-background-color-dark);
+    padding: 70px 0 90px;
+}
+
+/*main {
+    background-color: var(--about-us-background-color-light);
+}
+
+h1 {
+    font-family: "Dangrek", cursive;
+    text-align: center;
+    font-size: 34px;
+}
+
+h2 {
+    font-family: "Dangrek", cursive;
+    font-size: 30px;
+    padding-top: 90px;
+}*/
