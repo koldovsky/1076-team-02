@@ -1,0 +1,51 @@
+h2 {
+    font-size: 17px;
+    font-family: 'Leckerli One', cursive;
+    display: block;
+    text-align: center;
+}
+.carousel__title {
+    font-size: 41px;
+    font-family: 'Dangrek';
+    display: block;
+    text-align: center;
+}
+.carousel__description {
+    font-size: 20px;
+    font-size: 'Source Sans 3';
+    display: block;
+    text-align: center;
+}
+
+.carousel__cards {
+    background-color: #32254B;
+    border-radius: 5px;
+    padding: 5%;
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.card__title {
+    font-family: 'Dangrek';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 30px;
+}
+
+.button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #EAB754;
+color: #fffdfd;
+text-decoration: none;
+font-size: 15px;
+border-radius: 50px;
+font-family: 'Source Sans Pro', sans-serif;
+}
