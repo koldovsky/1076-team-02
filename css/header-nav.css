@@ -8,10 +8,6 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 280px;
-}
-
-.header__nav__burger-menu {
 }
 
 .header__nav__burger-menu-icon {
@@ -44,20 +40,11 @@
   margin-bottom: 40px;
 }
 
-.header__nav-list-item {
-}
-
 .header__nav-list-item-link {
   font-family: "Source Sans 3", sans-serif;
   font-size: 18px;
   color: var(--text-color);
   font-weight: 500;
-}
-
-.header__nav-list-right {
-}
-
-.header__nav__logo-container {
 }
 
 .header__nav__logo {
@@ -76,7 +63,6 @@
     height: 63px;
     display: flex;
     justify-content: space-between;
-    /* flex-direction: row; */
   }
 
   .header__nav-list-left,
@@ -84,8 +70,6 @@
     flex-direction: row;
     width: 300px;
     height: 100%;
-    /* justify-content: space-between;
-  align-items: center; */
   }
 
   .header__nav__logo-container {
