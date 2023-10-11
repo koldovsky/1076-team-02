@@ -22,10 +22,13 @@ background-color {
 
 .card-title {
 	box-sizing: border-box;
+	display: inline;
 	color: rgb(255, 255, 255);
 	font-family: 'Dangrek', cursive;
 	font-size: 30px;
+	font-weight: 400;
 	text-aline: center;
+	vertical-aline: baseline;
 }
 .card__imag {
 	 margin: auto;
