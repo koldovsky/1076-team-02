@@ -11,7 +11,7 @@
 	vertical-aline: baseline;
 }
 
-a.card__button {
+.card__button {
 	box-sizing: border-box;
 	display: block;
 	color: rgb(255, 255, 255);
