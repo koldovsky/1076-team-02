@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice Cream Cafe</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="shortcut icon"
+      href="images/ice-cream-fav-icon.png"
+      type="image/x-icon"
+    />
+    <script src="https://kit.fontawesome.com/0338511635.js" crossorigin="anonymous"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-
-  <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon" />
-</head>
-
-<body>
-
-  <!-- Irina Mishchenko -->
-  <header class="header">
-    <nav data-include="header-nav.partial.html"></nav>
-    <div data-include="index.header-banner.partial.html"></div>
-  </header>
-  <main>
-    <!-- Evhenii Korchemnyi-->
-    <section data-include="section-carousel.partial.html"></section>
-
-    <!-- section Maryna Chekhovska -->
-    <section data-include="index.home-our-menu.partial.html"></section>
-    <!-- ends section Maryna Chekhovska -->
-
-    <!-- Maria Zhenchur -->
-    <section data-include="index.blog.partial.html"></section>
-  </main>
-  <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
-</body>
-
+  <body>
+    <!-- Irina Mishchenko -->
+    <header class="header">
+      <nav data-include="header-nav.partial.html"></nav>
+      <div data-include="index.header-banner.partial.html"></div>
+    </header>
+    <main>
+      <!--Ulyana Koptsyukh-->
+      <div data-include="index.menu-cards.partial.html"></div>
+      <!-- Evhenii Korchemnyi-->
+      <section data-include="section-carousel.partial.html"></section>
+      <!-- Oleh Aksonov-->
+      <section data-include="section-home-ingredients.partial.html"></section>
+      <!-- section Maryna Chekhovska -->
+      <section data-include="index.home-our-menu.partial.html"></section>
+      <!-- ends section Maryna Chekhovska -->
+      <!-- Max Hutsuliak -->
+      <section data-include="home-next-month-special.html"></section>
+      <!-- Ihor Zvizlo -->
+      <section data-include="home-our-gallery.partial.html"></section>
+      <!-- Maria Zhenchur -->
+      <section data-include="index.blog.partial.html"></section>
+    </main>
+    <!-- Nastachenko Artem -->
+    <footer data-include="footer.partial.html"></footer>
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+  </body>
 </html>
 <!-- Leshchenko Oksana -->
