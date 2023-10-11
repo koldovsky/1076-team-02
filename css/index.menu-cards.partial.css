@@ -1,7 +1,7 @@
 @madia url('https://fonts.googleapis.com/css2?family=Dangrek&family=Leckerli+One&family=Source+Sans+3:wght@600&display=swap');
 
 .card-title {
-	display: inline;
+	display: flex;
 	color: rgb(255, 255, 255);
 	font-family: 'Dangrek', cursive;
 	font-size: 30px;
@@ -11,7 +11,7 @@
 }
 
 .card__button {
-	display: inline-block;
+	display: flex;
 	padding: 10px 20 px;
 	color: rgb(255, 255, 255);
 	font-family: 'Source Sans 3', sans-serif;
