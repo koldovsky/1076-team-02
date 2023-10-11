@@ -12,40 +12,63 @@ h2 {
 }
 .carousel__description {
     font-size: 20px;
-    font-size: 'Source Sans 3';
+    font-family: 'Source Sans 3';
     display: block;
     text-align: center;
 }
-
 .carousel__cards {
-    background-color: #32254B;
-    border-radius: 5px;
-    padding: 5%;
-    display: block;
-    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-
+    gap: 20px;
 }
-
+.imgc {
+    background-color: #32254B;
+    border-radius: 10px;
+    padding: 15px;
+}
+.header__banner-container-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 .card__title {
     font-family: 'Dangrek';
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
     height: 30px;
 }
-
-.button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #EAB754;
-color: #fffdfd;
-text-decoration: none;
-font-size: 15px;
-border-radius: 50px;
-font-family: 'Source Sans Pro', sans-serif;
+.card__description {
+    color: #32254B;
+    font-family: 'Source Sans 3', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card__price{
+    font-family:'Dangrek';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.button__click {
+    width: 154px;
+    height: 59px;
+    background-color: #EAB754 ;
+    color: #fffdfd;
+    font-family: "Source Sans 3";
+    font-size: 16.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+}
+.carousel__button--left {
+    width: 50px;
+    height: 50px;
+    border-radius: 50% ;
+    background-color: black;
+    color: #fffdfd;
+    border: none;
+ 
 }
