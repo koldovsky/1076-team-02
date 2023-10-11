@@ -2,12 +2,14 @@
     font-family: 'Leckerli One', cursive;
     font-size: 14px;
     display: block;
+    text-align: center;
 }
 
 .blog__name {
     font-family: 'Dangrek', cursive;
     font-size: 34px;
     display: block;
+    text-align: center;
 }
 
 .blog__description {
@@ -15,6 +17,7 @@
     font-size: 20px;
     color: var(--text-color-alternative);
     display: block;
+    text-align: center;
 }
 
 .article__title {
@@ -26,7 +29,7 @@
 
 .blog {
     padding: 60px 24px;
-    text-align: center;
+    text-align: start;
 }
 
 .blog__articles img {
@@ -49,16 +52,16 @@
     display: inline-block;
     padding: 10px 20px;
     background-color: #32264b;
-    color: #fff;
+    color: var(--text-color);
     text-decoration: none;
     font-size: 15px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 35px;
     font-family: 'Source Sans 3', sans-serif;
 }
 
-.button:hover {
-    background-color: #333;
+.blog__button:hover {
+    background-color: #b87390;
 }
 
 .blog__articles {
@@ -66,7 +69,6 @@
     grid-template-columns: 1fr;
     gap: 20px;
 }
-
 
 @media (min-width: 768px) {
     .blog__articles {
