@@ -1,13 +1,85 @@
-.h2 {
-    font-size: 17px;
-    font-family: 'Leckerli One', cursive;
-    display: block;
-    text-align: center;
+
+.ingredients {
+    max-width: 100%;
+    margin-top: 10em;
+    margin-bottom: 10em;
 }
-.iningredients-description{
-    display: block;
+.ingredients-text {
+    float: right;
+    width: 50%;
+    padding-top: 40px;
+}
+.ice-cream-image {
+    float: left;
+    width: 50%;
+    
+}
+/*.img {
+    border: 2px solid #000;
+    max-width: 50%; 
+} */
+.ingredients-title {
+    font-family: "Leckerli One";
+    font-size: 21px;
+    line-height: 20px;
+    padding-top: 40px;
+}
+.ingredients-description-title{
     font-family: "Dangrek", cursive;
     font-size: 48px;
-    line-height: 53px;
-    text-align: center;
+    line-height: 100px;
+}
+.ingredients-description{
+    font-family: "Source Sans 3";
+    font-size: 20px;
+    line-height: 70px;
+}
+.ing-text{
+    font-family: "Source Sans 3";
+    font-size: 20px;
+    line-height: 60px;
+    margin-left: 40px;
+}
+.description-text {
+    font-family: "Source Sans 3";
+    font-size: 18px;
+    line-height: 40px;
+    opacity: 50%;
+}
+/*.icon-leaf {
+    color:var(--about-us-background-color-light);
+    width: 2%;
+    height: 2%;
+    border: 2px solid #000;
+    margin-left: 300px;
+    margin-top: 300px;
+    display: flex;
+    max-width: ;
+} */
+
+@media (max-width: 768px) {
+    .ingredients-text {
+        float: none;
+        width: 100%;
+    }
+    
+    .ice-cream-image {
+        float: none;
+        width: 100%;
+    }
+    
+    .ice-cream-image img {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    
+    .ingredients-description-title {
+        font-size: 36px; 
+    }
+    
+    .ingredients-description {
+        font-size: 18px; 
+        line-height: 50px;
+    }
+    
 }
