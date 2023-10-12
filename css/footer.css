@@ -4,10 +4,12 @@ ul {
 }
 a {
     text-decoration: none;
-    color: rgb(185, 177, 197);
+    color: var(--blog-color-article-description);
+    font-size: 18px;
+    font-family: 'Source Sans 3', sans-serif;
 }
 footer {
-    background-color:#32264b;
+    background-color: var(--footer-background-color);
 }
 .container {
     max-width: 1200px;
@@ -16,7 +18,7 @@ footer {
 }
 .box {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 80px 0 70px 0;
 }
 .footer__wrapper {
@@ -29,7 +31,7 @@ footer {
 }
 .footer__wrapper-text {
     margin-bottom: 35px;
-    color: rgb(185, 177, 197);
+    color: var(--blog-color-article-description);
     font-size: 18px;
     font-family: 'Source Sans 3', sans-serif;
     line-height: 25px;
@@ -39,26 +41,21 @@ footer {
 }
 .footer__social-item {
     margin: 0 4px;
-    /* background-color: #32264b; */
     cursor: pointer;
 }
 .footer__wrapper .fab {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 196, 82);
+    color: var(--price-color);
     height: 40px;
     width: 40px; 
-    border: 2px solid rgb(255, 196, 82);
+    border: 2px solid var(--price-color);
     border-radius: 100%;
 }
 .title {
     font-size: 21px;
-    color: #fff;
-}
-.footer__navigation-list,.footer__support-item,.footer__working-work,.footer__working-weekend a {
-    font-size: 18px;
-    font-family: 'Source Sans 3', sans-serif;
+    color: var(--about-us-header-color);
 }
 .footer__navigation-item,.title,.footer__support-item,.footer__working-title,.footer__working-weekend {
     margin-bottom: 26px;
@@ -67,7 +64,7 @@ footer {
     margin-bottom: 10px;
 }
 .footer__working-phone a {
-    color: rgb(255, 196, 82);
+    color: var(--price-color);
     font-size: 26px;
     font-family: 'Dangrek', cursive;
     letter-spacing: 1px;
@@ -76,7 +73,7 @@ footer {
 .footer__divider {
     width: 83%;
     height: 2px;
-    background-color: #9932CC ;
+    background-color: var(--footer-divider-color);
     margin: 0 auto;
 }
 .footer__undegroung {
@@ -84,7 +81,7 @@ footer {
     justify-content: space-between;
     padding: 15px 0 20px 0;
     background-color: #32264b;
-    color: #fff;
+    color: var(--about-us-header-color);
 }
 .footer__undeground-left {
     padding-left: 7px;

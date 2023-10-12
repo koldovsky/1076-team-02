@@ -18,7 +18,9 @@
     --about-us-text-color:  #E0DDDD;
     --blog-color-article-description: rgb(185, 177, 197);
     --blog-button-color: #32264b; 
-    --blog-button-hover-color: #b87390; 
+    --blog-button-hover-color: #b87390;
+    --footer-divider-color: #9932CC;
+    --footer-background-color: #32264b;
     scroll-behavior: smooth;
     background-color: var(--background-color);
     color: var(--text-color);
