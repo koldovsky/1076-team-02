@@ -1,19 +1,46 @@
-<section class="contacts">
-  <nav class="contacts__nav">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts Page | Ice Cream</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="shortcut icon"
+      href="images/ice-cream-fav-icon.png"
+      type="image/x-icon"
+    />
+    <script src="https://kit.fontawesome.com/0338511635.js" crossorigin="anonymous"></script>
+  </head>
   
-    <div class="contacts__nav-header">Contacts</div>
-  
-    <div class="contacts__nav-info">
-      <div class="info-phone">Phone2</div>
-      <div class="info-email">Email</div>
-      <div class="info-address">Address</div>
-      <div class="info-hours">Hours</div>
-    </div>
-  
-    <div class="contacts__nav-map-and-form">
-      <div class="contacts__nav-map">Map content</div>
-      <div class="contacts__nav-form">Form content</div>
-    </div>
-  
-  </nav>
-</section>
+  <body>
+    <header class="header">
+      <nav data-include="header-nav.partial.html"></nav>
+    </header>
+
+    <main>
+      <section class="contacts">
+        <nav class="contacts__nav">
+        
+          <div class="contacts__nav-header">Contacts</div>
+        
+          <div class="contacts__nav-info">
+            <div class="info-phone">Phone</div>
+            <div class="info-email">Email</div>
+            <div class="info-address">Address</div>
+            <div class="info-hours">Hours</div>
+          </div>
+        
+          <div class="contacts__nav-map-and-form">
+            <div class="contacts__nav-map">Map content</div>
+            <div class="contacts__nav-form">Form content</div>
+          </div>
+        </nav>
+      </section>
+
+    </main>
+      <footer data-include="footer.partial.html"></footer>
+        <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+  </body>
+</html>
