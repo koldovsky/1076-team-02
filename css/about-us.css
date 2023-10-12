@@ -1,0 +1,145 @@
+@import url(global.css);
+@import url(header-nav.css);
+@import url(footer.css);
+
+.about-us__header {
+    background-color: var(--about-us-background-color-dark);
+}
+
+.header__title {
+    text-align: center;
+}
+
+.about-us__nav-header{
+    background-color: var(--about-us-background-color-dark);
+    padding: 70px 0 90px;
+}
+
+.about-us, .advantages, .foto-video {
+    background-color: var(--about-us-background-color-light);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header__title {
+    font-family: "Dangrek", cursive;
+    text-align: center;
+    font-size: 34px;
+}
+
+.about-us__text_part-bold {
+    font-family: "Dangrek", cursive;
+    font-size: 30px;
+    line-height: normal;
+}
+
+.about-us__text_part, .advantages__text, .about-us__text_nextpart {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    color: var(--about-us-text-color); 
+    line-height: 28,8px;
+    
+}
+
+.about-us__text {
+    margin-top: 50px;
+}
+
+.about-us__text_nextpart {
+    margin-top: 30px;
+}
+
+.advantages__heading {
+    font-family: "Dangrek", cursive;
+    font-size: 22px;
+}
+
+.foto-video {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*.img-background {
+    background-color: var(--about-us-background-color-dark);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+       
+}
+
+.img-container {
+    width: 26px;
+    height: 26px;
+    position: relative;
+}*/
+
+.advantage_picture {
+    width: 50px; 
+    height: 50px; 
+    background-color: var(--about-us-background-color-dark); 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.advantage_picture img {
+    max-width: 26px;
+    max-height: 26px; 
+}
+
+.advantages {
+    padding: 50px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+@media (max-width: 320px) {
+    .advantage_item {
+        width: 100%; /* Робить елементи на повну ширину */
+    }
+}
+
+@media (min-width: 768px) {
+    .advantages {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+    .advantage_item {
+        width: auto;
+    }
+}
+
+.advantages__heading, .advantages__text {
+    margin-top: 20px;
+    
+}
+
+.advantage_item {
+    padding-bottom: 50px;
+}
+
+@media (max-width: 320px) {
+    .about-us__text {
+        width: 100%; /* Робить елементи на повну ширину */
+    }
+}
+
+@media (min-width: 768px) {
+    .about-us {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 80px;
+    }
+    .about-us__text {
+        width: auto;
+    }
+}
+
+
+

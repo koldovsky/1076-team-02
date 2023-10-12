@@ -1,0 +1,13 @@
+.h2 {
+    font-size: 17px;
+    font-family: 'Leckerli One', cursive;
+    display: block;
+    text-align: center;
+}
+.iningredients-description{
+    display: block;
+    font-family: "Dangrek", cursive;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+}

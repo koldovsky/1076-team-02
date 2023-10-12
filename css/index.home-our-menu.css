@@ -46,7 +46,7 @@
 }
 
 .menu-nav-sections-button:hover {
-    border-bottom: 3px solid var(--underline-color)
+    border-bottom: 3px solid var(--blog-button-hover-color)
 }
 
 #ice-cream,
@@ -102,5 +102,17 @@
 @media (min-width: 992px){
     .menu-pages {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .menu-nav{
+        justify-content: center;
+    }
+    .menu-headers-sections-name {
+        font-size: 21px;
+    }
+    .menu-headers-big-paragraph {
+        font-size: 48px;
+    }
+    .menu-headers-paragraph-welcome {
+        font-size: 20px;
     }
 }
