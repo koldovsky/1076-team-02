@@ -1,0 +1,60 @@
+@import url(global.css);
+@import url(header-nav.css);
+@import url(footer.css);
+
+.menu {
+    background-color: var(--menu-background-color-dark);
+}
+
+.menu__header{
+    background-color: var(--menu-background-color-dark);    
+}
+
+.menu__title, .menu__section-subtitle {
+    padding: 70px 0 90px;
+    text-align: center;
+    font-family: "Dangrek", cursive;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.menu__section {
+    background-color: var(--menu-background-color-light);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu__item img {
+    height: 70px;
+    width: 70px;
+}
+
+.menu__section-heading {
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+    font-size: 21px;
+    margin-bottom: 0;
+}
+
+.menu__section-description {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.menu__item-name {
+    font-family: "Dangrek", cursive;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.menu__item-text {
+    color: var(--text-color-alternative);
+    font-family: "Source Sans 2", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
