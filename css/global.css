@@ -9,6 +9,7 @@
 :root {
     --text-color: rgb(255, 255, 255);
     --text-color-alternative: rgb(225, 221, 232);
+    --text-color-button-carousel: black;
     --price-color: rgb(255, 196, 82);
     --background-color: #493b5f;
     --background-color-dark: rgb(50, 38, 75);
