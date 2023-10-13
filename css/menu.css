@@ -52,13 +52,9 @@
 }
 
 .menu__item-price-decorator {
-    color: var(--text-color-alternative);
-    display: block;
+    border-bottom: 1px solid var(--text-color-alternative);
     margin: 20px 7px;
-    height: 1px;
     width: 359.312px;
-    min-width: 10px;
-    text-align: left;
 }
 
 .menu__item-text {
