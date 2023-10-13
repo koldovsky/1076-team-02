@@ -45,16 +45,26 @@
     vertical-align: baseline;
 }
 
-.menu__item-name {
+.menu__item-name, .menu__item-price {
     font-family: "Dangrek", cursive;
     font-weight: 400;
     font-size: 26px;
 }
 
+.menu__item-price-decorator {
+    color: var(--text-color-alternative);
+    display: block;
+    margin: 20px 7px;
+    height: 1px;
+    width: 359.312px;
+    min-width: 10px;
+    text-align: left;
+}
+
 .menu__item-text {
     color: var(--text-color-alternative);
     font-family: "Source Sans 2", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-style: italic;
     font-weight: 400;
 }
