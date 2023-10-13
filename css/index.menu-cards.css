@@ -1,31 +1,35 @@
 .menu__cards {
 	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	gap: 50px;
 }
 
-.menu-card.card.img {
+.menu__card-img {
+	max-width: 100%;
+	height: auto;
 	padding: 30px;
 	border-radius: 10px;
 }
 
 .menu__card-title {
-	display: flex;
 	color: rgb(255, 255, 255);
 	font-family: 'Dangrek', cursive;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	font-size: 30px;
 	font-weight: 400;
-	text-align: center;
 }
 
-.card__button {
-	display: flex;
-	padding: 10px 20px;
+.menu__card__button {
 	color: rgb(255, 255, 255);
 	font-family: 'Source Sans 3', sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	font-size: 15px;
-	font-style: normal;
-	font-weight: 700;
-	text-align: center;
+	font-weight: 300;
 	cursor: pointer;
 	border-radius: 35px;
 }

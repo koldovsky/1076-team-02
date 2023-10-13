@@ -100,7 +100,7 @@
 
 @media (max-width: 320px) {
     .advantage_item {
-        width: 100%; /* Робить елементи на повну ширину */
+        width: 100%;
     }
 }
 

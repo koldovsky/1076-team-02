@@ -17,6 +17,13 @@
     --about-us-background-color-dark: #A55376;
     --about-us-header-color: #FFFFFF;
     --about-us-text-color:  #E0DDDD;
+    --menu-background-color-light: #6382a7;
+    --menu-background-color-dark: #537398;
+    --blog-color-article-description: rgb(185, 177, 197);
+    --blog-button-color: #32264b; 
+    --blog-button-hover-color: #b87390;
+    --footer-divider-color: #9932CC;
+    --footer-background-color: #32264b;
     scroll-behavior: smooth;
     background-color: var(--background-color);
     color: var(--text-color);
