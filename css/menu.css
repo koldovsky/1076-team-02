@@ -18,11 +18,17 @@
     font-size: 48px;
 }
 
-.menu__section {
+.menu__sections {
     background-color: var(--menu-background-color-light);
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.menu__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Розділення на дві рівнозначні колонки */
+    grid-gap: 20px; /* Відступи між колонками */
+  }
 
 .menu__item img {
     height: 70px;
