@@ -26,8 +26,8 @@
 
 .menu__list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Розділення на дві рівнозначні колонки */
-    grid-gap: 20px; /* Відступи між колонками */
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
   }
 
 .menu__item img {
@@ -70,3 +70,14 @@
     font-style: italic;
     font-weight: 400;
 }
+
+/* .footer-decorator {
+    width: 100%;
+    height: 100px;
+    background-color: var(--menu-background-color-light);
+    transition: width 2s ease-in-out;
+}
+
+.footer-decorator:hover {
+    width: 200px;
+  } */
