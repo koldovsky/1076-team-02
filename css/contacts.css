@@ -1,170 +1,207 @@
-
 body {
     background-color: #f8b83d;
     margin: 0;
     padding: 0;
     font-family: 'Source Sans 3', sans-serif;
+    border: #32264b;
 }
 
-
-.block {
-    width: 100%;
-    margin-bottom: 20px; 
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc452;
+    min-width: 320px;
+    height: 150px;
+    border: #0bbd4f;
 }
 
-.contacts__nav {
-    background-color: #f8b83d;
+.contacts-header-section h2 {
     text-align: center;
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.info-image-svg {
-    fill: white;
-    object-fit: fill;
-    width: 100%;
-    height: 100%;
-}
-
-.header-h2 {
-    display: block;
     font-family: 'Dangrek', cursive;
-    font-size: 48px;
-    color: #fff;
-    text-align: center;
+    font-size: 24px;
+    color: white;
+    border: #c50f0f;
 }
-.p_label{
+
+.contacts__nav-info {
+    display: flex;
+    flex-wrap: wrap;
+    border: #05dbd1;
+}
+
+.contact-info {
+    flex: 1;
+    width: 100%;
+    margin-bottom: 20px;
+    border: #4cac49;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+
+.p_info-label{
     display: block;
     font-family: 'Dangrek', cursive;
     font-size: 24px;
     text-align: left;
     color: #fff;
 }
-.p_info-text{
+
+.info-phone-text p,
+.info-email-text p,
+.info-address-text p,
+.info-hours-text p{
     display: block;
-    min-height: 5px;
     font-family: 'Source Sans 3', cursive;
     font-size: 18px;
-    text-align: center;
     color: #fff;
     text-align: left;
 }
 
-.p_form-head-text{
-    display: block;
-    font-family: 'Source Sans 3', sans-serif;
-    font-size: 21px;
-    color: white;
-    text-align: center;
-}
-
-.contacts__nav {
-    background-color: #f8b83d;
-    text-align: center;
-    padding: 20px;
-	margin: 0 auto;
-	max-width: 1200px;
-}
-
-.contacts__nav-header {
-    background-color: #ffc452;
-    
-}
-
-.contacts__nav-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-	
-}
-
-.info-phone, .info-email, .info-address, .info-hours {
-    width: 250px;
-    margin: 20px;
-    text-align: center;
-}
-
-.info-phone-image, .info-email-image, .info-address-image, .info-hours-image {
-    width: 100px;
-    height: 100px;
-    background-color: #ffc452;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
 
 
 
-.contacts__nav-map-and-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.contacts__nav-map {
-    width: 45%;
-    background-color: #f8b83d;
-    padding: 20px;
-}
-
-.contacts__nav-form {
-    width: 45%;
-    background-color: #ffc452;
-	margin: 0 10px; 
-    padding: 20px;
-    box-sizing: border-box;
-
-}
-
-.w-form__input {
-    display: block;
-    width: calc(100% - 40px);
-    margin: 10px auto;
-    box-shadow: none;
-    appearance: none;
-    background: #f8b83d;
-    text-overflow: ellipsis;
-    border: 0;
-    font-size: 18px;
-    padding: 15px;
-    border-radius: 30px;
-    color: white;
-    text-align: left;
-}
-
-.ui-button {
-    font-family: "Source Sans 3", sans-serif;
-    text-transform: none;
-    background-color: #32264b;
-    border: none;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 30px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-/* Mobile devices (up to 768px) */
-@media screen and (max-width: 768px) {
-    .block {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .info-phone, .info-email, .info-address, .info-hours {
-        width: 80%;
+@media (min-width: 768px) {
+    .contacts__nav{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .contacts__nav-map, .contacts__nav-form {
+
+    .contacts-header-section h2 {
+        font-size: 41px;
+    }
+
+    .contact-info {
+        margin-right: 20px;
+    }
+
+    .info-phone,
+    .info-email,
+    .info-address,
+    .info-hours {
+        width: 25%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .info-phone-image,
+    .info-email-image,
+    .info-address-image,
+    .info-hours-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        background: #ffc452;
+        border-radius: 50%;
+    }
+    .info-phone-image-svg,
+    .info-email-image-svg,
+    .info-address-image-svg,
+    .info-hours-image-svg{
+        
+        fill: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
+        height: 100%;
+    }
+    .info-phone-text,
+    .info-email-text,
+    .info-address-text,
+    .info-hours-text {
+        position: relative;
+        max-width: 100%;
+        word-wrap: break-word;
+    }
+
+    .contacts__nav-map-and-form{
+        display: flex;
+        width: 100%;
+        height: 700px;
+        justify-content: space-between;
+
+    }
+    .contacts__nav-map-and-form div{
+
+          padding: .5em;
+          color: white;
+          flex: 1;
+    }
+
+
+    .contacts__nav-map{
+        
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        margin-left: 20px;
+        
+    }
+    .contacts__nav-form{
+        background: #ffc452;;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 2%;
+        
+    }
+
+    .contacts-form-header-h2{
+        display: block;
+        font-family: 'Dangrek', cursive;
+        font-size: 48px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .contacts-form-header-text{
+        display: block;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 21px;
+        color: white;
+        text-align: center;
+        margin: auto 30px;
+    }
+    .contacts-data-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .w-form__input {
+        display: block;
+        width: calc(100% - 40px);
+        margin: 10px auto;
+        box-shadow: none;
+        appearance: none;
+        background: #f8b83d;
+        text-overflow: ellipsis;
+        border: 0;
+        font-size: 18px;
+        padding: 15px;
+        border-radius: 30px;
+        color: white;
+        text-align: left;
     }
 
     .ui-button {
-        width: 100%;
+        font-family: "Source Sans Pro", sans-serif;
+        background-color: #32264b;
+        border: none;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 30px;
+        cursor: pointer;
+        margin: 40px 50px;
     }
 }
