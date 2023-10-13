@@ -1,7 +1,9 @@
 .ingredients {
-    max-width: 100%;
-    margin-top: 7em;
-    margin-bottom: 10em;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 5em;
+    
 }
 
 .ingredients-text {
@@ -20,18 +22,19 @@
 
 .ice-cream-image {
     float: left;
-    margin-left: 20%; 
-    margin-top: 2%;  
+    margin-left: 35%; 
+    margin-top: 1%;  
     display: flex;
-    max-width: 100%;
+    max-width: 60%;
 }
 
 .icon-leaf img {
     color: #B87390;
     margin-bottom: 32px;
     display: flex;
-    width: 3.3%;
+    width: 3%;
     position: relative;
+    line-height: 20%;
     bottom: 285px;
   }
 
