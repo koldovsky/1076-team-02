@@ -1,85 +1,116 @@
-
 .ingredients {
     max-width: 100%;
-    margin-top: 10em;
+    margin-top: 7em;
     margin-bottom: 10em;
 }
+
 .ingredients-text {
     float: right;
     width: 50%;
-    padding-top: 40px;
+    height: 600px; 
 }
-.ice-cream-image {
+
+.image-ice {
     float: left;
     width: 50%;
-    
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    height: 600px;
 }
-/*.img {
-    border: 2px solid #000;
-    max-width: 50%; 
-} */
+
+.ice-cream-image {
+    float: left;
+    margin-left: 20%; 
+    margin-top: 2%;  
+    display: flex;
+    max-width: 100%;
+}
+
+.icon-leaf img {
+    color: #B87390;
+    margin-bottom: 32px;
+    display: flex;
+    width: 3.3%;
+    position: relative;
+    bottom: 285px;
+  }
+
+
 .ingredients-title {
     font-family: "Leckerli One";
     font-size: 21px;
     line-height: 20px;
     padding-top: 40px;
+    text-align: left;
 }
-.ingredients-description-title{
+
+.ingredients-description-title {
     font-family: "Dangrek", cursive;
     font-size: 48px;
     line-height: 100px;
+    text-align: left;
 }
-.ingredients-description{
+
+.ingredients-description {
     font-family: "Source Sans 3";
     font-size: 20px;
     line-height: 70px;
+    text-align: left;
 }
-.ing-text{
+
+.ing-text {
     font-family: "Source Sans 3";
     font-size: 20px;
     line-height: 60px;
-    margin-left: 40px;
+    margin-left: 40px; 
 }
+
 .description-text {
+    color: var(--blog-color-article-description);
     font-family: "Source Sans 3";
     font-size: 18px;
     line-height: 40px;
-    opacity: 50%;
+    text-align: left;
 }
-/*.icon-leaf {
-    color:var(--about-us-background-color-light);
-    width: 2%;
-    height: 2%;
-    border: 2px solid #000;
-    margin-left: 300px;
-    margin-top: 300px;
-    display: flex;
-    max-width: ;
-} */
+
 
 @media (max-width: 768px) {
+    .ingredients {
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+
     .ingredients-text {
         float: none;
         width: 100%;
+        height: auto;
     }
-    
-    .ice-cream-image {
+    .image-ice {
         float: none;
         width: 100%;
+        height: auto;
     }
-    
-    .ice-cream-image img {
-        max-width: 100%;
+    .ice-cream-image {
+        float: none;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .icon-leaf img {
+        top: 5px;
+    }
+    .ingredients-title {
+        font-size: 18px;
+    }
+    .ingredients-description-title {
+        font-size: 36px;
+    }
+    .ingredients-description {
+        font-size: 16px;
+    }
+    .ing-text {
         margin-left: 0;
     }
-    
-    .ingredients-description-title {
-        font-size: 36px; 
+    .description-text {
+        font-size: 14px;
     }
-    
-    .ingredients-description {
-        font-size: 18px; 
-        line-height: 50px;
-    }
-    
 }
