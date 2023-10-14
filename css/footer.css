@@ -1,6 +1,6 @@
 .footer ul {
     list-style: none;
-    text-align: left;
+    text-align: center;
 }
 .footer a {
     text-decoration: none;
@@ -18,16 +18,14 @@ footer {
 }
 .box {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     padding: 80px 0 70px 0;
 }
-.footer__wrapper {
-    width: 350px;
-}
 .footer__wrapper img {
-    margin-bottom: 35px;
     display: block;
-    width: 197px;
+    width: clamp(197px, 5vw, 197px);
+    margin: 0 auto 30px;
+
 }
 .footer__wrapper-text {
     margin-bottom: 35px;
@@ -35,9 +33,12 @@ footer {
     font-size: 18px;
     font-family: 'Source Sans 3', sans-serif;
     line-height: 25px;
+    text-align: center;
 }
 .footer__social {
     display: flex; 
+    justify-content: center;
+    margin-bottom: 30px;
 }
 .footer i {
     font-size: 20px;
@@ -48,6 +49,10 @@ footer {
 }
 .footer__social-item i:hover {
     color: var(--footer-background-color);
+}
+.footer__navigation, .footer__support, .footer__working {
+    display: flex;
+    justify-content: center;
 }
 .footer__social-item {
     margin: 0 4px;
@@ -88,14 +93,45 @@ footer {
 }
 .footer__undegroung {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     padding: 15px 0 20px 0;
     background-color: #32264b;
     color: var(--about-us-header-color);
 }
 .footer__undeground-left {
     padding-left: 7px;
+    margin-bottom: 20px;
 }
 .footer__undeground-right {
     padding-right: 7px;
+}
+
+@media (min-width: 1200px) {
+    .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        }
+    .footer__wrapper img {
+        margin: 0 0 30px 0;
+    }
+    .footer__wrapper {
+        width: 365px;
+    }
+    .footer__wrapper-text {
+        text-align: left;
+    }
+    .footer__social {
+        display: flex;
+        justify-content: start;
+    }
+    .footer ul {
+        text-align: left;
+    }
+    .footer__undegroung {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
