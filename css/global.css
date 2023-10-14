@@ -5,7 +5,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-family: 'Source Sans 3', sans-serif;
+}
 :root {
     --text-color: rgb(255, 255, 255);
     --text-color-alternative: rgb(225, 221, 232);
@@ -35,3 +41,4 @@ img {
     max-width: 1200px;
     margin:auto;
 }
+
