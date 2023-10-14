@@ -27,33 +27,28 @@
 }
 
 .ingredients-description {
-  font-family: "Source Sans 3", bold;
+  font-family: "Source Sans 3";
   font-size: 1.25rem;
-  line-height: 10px;
+  line-height: 30px;
   text-align: left;
-  
 }
 
 .our-ingredients-desc  {
   line-height: 20px;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 20px;
   font-family: "Source Sans 3";
   font-size: 1.2rem; 
-  line-height:50px;
-  opacity: 95%;
+  line-height: 40px;
 }
 
-.ing-text {
- 
-}
 
 .description-text {
   color: var(--blog-color-article-description);
   font-family: "Source Sans 3";
-  font-size: 18px;
+  font-size: 1.1rem;
   line-height: 40px;
   text-align: left;
+  margin-top: 20px;
 }
 
 .ice-cream-image {
@@ -72,9 +67,5 @@
 
   .ingredients-text {
       text-align: left;
-  }
-
-  .our-ingredients-desc img {
-      width: 5%;
   }
 }
