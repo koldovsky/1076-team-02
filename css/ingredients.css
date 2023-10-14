@@ -1,119 +1,80 @@
 .ingredients {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    margin-top: 5em;
-    
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.ingredients-title {
+  font-family: "Leckerli One";
+  font-size: 1.6rem;
 }
 
 .ingredients-text {
-    float: right;
-    width: 50%;
-    height: 600px; 
-}
-
-.image-ice {
-    float: left;
-    width: 50%;
-    padding-top: 1%; 
-    padding-bottom: 1%; 
-    height: 600px;
-}
-
-.ice-cream-image {
-    float: left;
-    margin-left: 35%; 
-    margin-top: 1%;  
-    display: flex;
-    max-width: 60%;
-}
-
-.icon-leaf img {
-    color: #B87390;
-    margin-bottom: 32px;
-    display: flex;
-    width: 3%;
-    position: relative;
-    line-height: 20%;
-    bottom: 285px;
-  }
-
-
-.ingredients-title {
-    font-family: "Leckerli One";
-    font-size: 21px;
-    line-height: 20px;
-    padding-top: 40px;
-    text-align: left;
+  text-align: left;
 }
 
 .ingredients-description-title {
-    font-family: "Dangrek", cursive;
-    font-size: 48px;
-    line-height: 100px;
-    text-align: left;
+  font-family: "Dangrek", cursive;
+  font-size: 2.5rem;
+  line-height: 100px;
+  text-align: left;
 }
 
 .ingredients-description {
-    font-family: "Source Sans 3";
-    font-size: 20px;
-    line-height: 70px;
-    text-align: left;
+  font-family: "Source Sans 3", bold;
+  font-size: 1.25rem;
+  line-height: 10px;
+  text-align: left;
+  
+}
+
+.our-ingredients-desc  {
+  line-height: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: "Source Sans 3";
+  font-size: 1.2rem; 
+  line-height:50px;
+  opacity: 95%;
 }
 
 .ing-text {
-    font-family: "Source Sans 3";
-    font-size: 20px;
-    line-height: 60px;
-    margin-left: 40px; 
+ 
 }
 
 .description-text {
-    color: var(--blog-color-article-description);
-    font-family: "Source Sans 3";
-    font-size: 18px;
-    line-height: 40px;
-    text-align: left;
+  color: var(--blog-color-article-description);
+  font-family: "Source Sans 3";
+  font-size: 18px;
+  line-height: 40px;
+  text-align: left;
 }
 
+.ice-cream-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 
-@media (max-width: 768px) {
-    .ingredients {
-        margin-top: 4em;
-        margin-bottom: 4em;
-    }
+@media (min-width: 780px) {
+  .ingredients {
+      grid-template-columns: 1fr 1fr;
+  }
+  .ingredients-title {
+      line-height: 20px;
+  }
 
-    .ingredients-text {
-        float: none;
-        width: 100%;
-        height: auto;
-    }
-    .image-ice {
-        float: none;
-        width: 100%;
-        height: auto;
-    }
-    .ice-cream-image {
-        float: none;
-        margin-left: 0;
-        margin-top: 0;
-    }
-    .icon-leaf img {
-        top: 5px;
-    }
-    .ingredients-title {
-        font-size: 18px;
-    }
-    .ingredients-description-title {
-        font-size: 36px;
-    }
-    .ingredients-description {
-        font-size: 16px;
-    }
-    .ing-text {
-        margin-left: 0;
-    }
-    .description-text {
-        font-size: 14px;
-    }
+  .ingredients-text {
+      text-align: left;
+  }
+
+  .our-ingredients-desc img {
+      width: 5%;
+  }
 }
