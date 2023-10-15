@@ -8,7 +8,7 @@
 .menu__card {
 	position: relative;
 	padding: 20px;
-	}
+}
 
 .card__image {
 	max-width: 100%;
@@ -18,25 +18,45 @@
 	max-height: 500px;
 	object-fit: cover;
 	border-radius: 10px;
-	}
+}
 
 .card__title {
 	position: absolute;
 	color: var(--text-color);
 	font-family: 'Dangrek', cursive;
 	text-align: center;
-	top: 10%;
+	top: 20%;
 	left: 33%;
 	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
 	margin: 0
 }
 
-.card__button {
+.card__button1 {
 	position: absolute;
 	bottom: 10px;
 	top: 60%;
 	left: 33%;
-	color: rgb(255, 255, 255);
+	color: var(--text-color);
+	background-color: var(--background-color-dark);
+	font-family: 'Source Sans 3', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	border-radius: 27px;
+	height: 50px;
+	width: 150px;
+}
+
+.card__button2 {
+	position: absolute;
+	bottom: 10px;
+	top: 60%;
+	left: 33%;
+	color: var(--text-color);
 	background-color: var(--about-us-background-color-light);
 	font-family: 'Source Sans 3', sans-serif;
 	text-align: center;
@@ -48,28 +68,49 @@
 	width: 150px;
 }
 
-@media (max-width: 967px){
-.menu__cards {
-	grid-template-columns: 1fr;
- }
- .menu__card {
-	height: auto;
- }
- .card__image {
-	max-height: none;
-	height: 180px;
-	max-width: 100%;
-	object-fit: cover;
- }
+.card__button3 {
+	position: absolute;
+	bottom: 10px;
+	top: 60%;
+	left: 33%;
+	color: var(--text-color);
+	background-color: var(--background-color-dark);
+	font-family: 'Source Sans 3', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	border-radius: 27px;
+	height: 50px;
+	width: 150px;
 }
 
-	
-	
+.card__button1:hover {
+	background-color: var(--about-us-background-color-light);
+}
 
-	
-	
-	
+.card__button2:hover {
+	background-color: var(--background-color-dark);
+}
 
+.card__button3:hover {
+	background-color: var(--about-us-background-color-light);
+}
 
-	
-	
+@media (max-width: 768px) {
+	.menu__cards {
+		grid-template-columns: 1fr;
+	}
+
+	.menu__card {
+		height: auto;
+	}
+
+	.card__image {
+		max-height: none;
+		height: 180px;
+		max-width: 100%;
+		object-fit: cover;
+	}
+}
