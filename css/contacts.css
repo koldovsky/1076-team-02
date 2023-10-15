@@ -1,5 +1,8 @@
-body{
-    background-color: #ffc452;
+body {
+    background-color: #f8b83d;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 .header-section {
@@ -83,7 +86,6 @@ body{
         width: 100%;
         box-sizing: border-box;
         padding: 20px;
-        background-color: #f8b83d;
     }
 
     .info-phone-image,
@@ -123,7 +125,6 @@ body{
     .contacts__nav-map-and-form{
         display: grid;
         height: auto;
-        background-color: #f8b83d;
     }
 
     #map{
@@ -208,7 +209,6 @@ body{
         display: flex;
         width: 100%;
         align-items: center;
-        background-color: #f8b83d;
     }
     .footer-wave svg{
         width: 100%;
