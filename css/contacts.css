@@ -1,3 +1,11 @@
+.contacts-info-section{
+   background-color: #f8b83d;
+}
+
+.header__nav{
+   background-color: #ffc452;
+}
+
 .header-section {
     display: flex;
     justify-content: center;
