@@ -1,6 +1,11 @@
+.header-background{
+    background-color: #ffc452;
+}
+
 .contacts-info-section{
    background-color: #f8b83d;
 }
+
 
 .header-section {
     display: flex;
