@@ -2,10 +2,6 @@
    background-color: #f8b83d;
 }
 
-.header__nav{
-   background-color: #ffc452;
-}
-
 .header-section {
     display: flex;
     justify-content: center;
@@ -59,7 +55,9 @@
 
 
 
-
+.footer-section-wave{
+    background-color: #f8b83d;
+}
 
 
 @media (min-width: 150px) {
