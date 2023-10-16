@@ -35,17 +35,19 @@
     width: auto;
     height: auto;
     border-radius: 6px;
+    margin-top: 40px;
 }
 
 .article__description {
     font-family: 'Source Sans 3', sans-serif;
     font-size: 18px;
     color: var(--blog-color-article-description);
+    margin-top: 20px;
 }
 
 .blog__button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 15px 30px;
     background-color: var(--blog-button-color);
     color: var(--text-color);
     text-decoration: none;
@@ -53,6 +55,8 @@
     cursor: pointer;
     border-radius: 35px;
     font-family: 'Source Sans 3', sans-serif;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
 }
 
 .blog__button:hover {
@@ -69,12 +73,15 @@
     .blog__articles {
         grid-template-columns: 1fr 1fr;
     }
+
     .blog__title {
         font-size: 17px;
     }
-    .blog__name{
+
+    .blog__name {
         font-size: 41px;
     }
+
     .article__title {
         font-size: 24px;
     }
@@ -84,12 +91,15 @@
     .blog__articles {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
     .blog__title {
         font-size: 21px;
     }
-    .blog__name{
+
+    .blog__name {
         font-size: 48px;
     }
+
     .article__title {
         font-size: 26px;
     }
