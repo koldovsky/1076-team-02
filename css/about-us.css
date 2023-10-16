@@ -2,6 +2,7 @@
 @import url(header-nav.css);
 @import url(footer.css);
 @import url(about-us-carousel.partial.css);
+@import url(questions.css);
 
 .about-us__header {
     background-color: var(--about-us-background-color-dark);
