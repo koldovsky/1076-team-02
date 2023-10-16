@@ -16,5 +16,6 @@
     line-height: 28,8px;
 }
 .questions__header, .questions__paragraph, .questions__accordion {
-    width: 30%;
+    text-align: center;
+    width: 75%; 
 }
