@@ -12,6 +12,7 @@
 
 .ice-cream-and-desserts {
   text-align: center;
+  color: var(--text-color-alternative);
   font-family: "Source Sans 3", sans-serif;
   font-size: 1.2rem;
 }
