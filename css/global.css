@@ -30,6 +30,7 @@ a {
     --blog-button-hover-color: #b87390;
     --footer-divider-color: #9932CC;
     --footer-background-color: #32264b;
+    --contacts-background-color-secondary: rgb(248, 184, 61);
     scroll-behavior: smooth;
     background-color: var(--background-color);
     color: var(--text-color);
