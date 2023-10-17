@@ -33,6 +33,11 @@ function makeNegative(num) {
     }
 }
 
+//Maryna Chekhovska
+function makeNegative(num) {
+  return num <= 0 ? num : -num;
+}
+
 //Game Move https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
 
 // Irina Mishchenko
@@ -88,4 +93,9 @@ function lovefunc(flower1, flower2){
 function lovefunc(flower1, flower2){
   return ((flower1 % 2 === 0 && flower2 % 2 !== 0) ||
         (flower1 % 2 !== 0 && flower2 % 2 === 0)) ? true : false
+}
+
+//Maryna Chekhovska
+function lovefunc(flower1, flower2) {
+  return (flower1 % 2 !== flower2 % 2);
 }
