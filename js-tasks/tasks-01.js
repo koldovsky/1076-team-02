@@ -18,12 +18,22 @@ function makeNegative(num) {
   }
 }
 
+//Oleksandr Parkhomchuk
+function makeNegative(num) {
+  return num > 0 ? num*(-1) : num
+}
+
 //Game Move https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
 
 // Irina Mishchenko
 function move (position, roll) {
   let result = position + roll * 2;
   return result;
+}
+
+//Oleksandr Parkhomchuk
+function move (position, roll) {
+  return position + roll * 2
 }
 
 //Personalized Message https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
@@ -37,6 +47,11 @@ function greet (name, owner) {
     greeting = "Hello guest";
   }
   return greeting;
+}
+
+//Oleksandr Parkhomchuk
+function greet (name, owner) {
+  return name == owner ? 'Hello boss' : 'Hello guest';
 }
 
 //Keep Hydrated https://www.codewars.com/kata/keep-hydrated-1/train/javascript
@@ -57,4 +72,10 @@ function lovefunc(flower1, flower2){
   } else {
     return false
   }
+}
+
+//Oleksandr Parkhomchuk
+function lovefunc(flower1, flower2){
+  return ((flower1 % 2 === 0 && flower2 % 2 !== 0) ||
+        (flower1 % 2 !== 0 && flower2 % 2 === 0)) ? true : false
 }
