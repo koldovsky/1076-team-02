@@ -23,6 +23,16 @@ function makeNegative(num) {
   return num > 0 ? num*(-1) : num
 }
 
+//Maria Zhenchur 
+function makeNegative(num) {
+  if ( num > 0 ) {
+        return -num;
+    }
+    else {
+        return num;
+    }
+}
+
 //Game Move https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
 
 // Irina Mishchenko
