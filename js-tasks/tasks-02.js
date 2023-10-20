@@ -28,20 +28,12 @@ function min(arr, toReturn) {
 //Поглиблені задачки (робити за бажанням):
 //A wolf in sheep's clothing https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
 
-function warnTheSheep(queue) {
-  if (queue[queue.length - 1] === "wolf") {
-    return "Pls go away and stop eating my sheep";
-  }
-  return `Oi! Sheep number ${queue
-    .reverse()
-    .indexOf("wolf")}! You are about to be eaten by a wolf!`;
-}
-
-// 
 
 function warnTheSheep(queue) {
   let index = queue.reverse().indexOf("wolf");
-  return index === 0 ? "Pls go away and stop eating my sheep" : `Oi! Sheep number ${index}! You are about to be eaten by a wolf!`
+  return index === 0
+    ? "Pls go away and stop eating my sheep"
+    : `Oi! Sheep number ${index}! You are about to be eaten by a wolf!`;
 }
 
 //Beginner - Lost Without a Map https://www.codewars.com/kata/beginner-lost-without-a-map
