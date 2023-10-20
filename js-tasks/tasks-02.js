@@ -17,19 +17,6 @@ var max = function (list) {
   return Math.max(...list);
 };
 
-////////
-
-var min = function (list) {
-  list.sort((a, b) => a - b);
-  return list[0];
-};
-
-var max = function (list) {
-  list.sort((a, b) => b - a);
-  return list[0];
-};
-
-
 //Smallest value of an array https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
 
 function min(arr, toReturn) {
@@ -38,13 +25,4 @@ function min(arr, toReturn) {
     : arr.indexOf(Math.min(...arr));
 }
 
-/////////
-
-function min(arr, toReturn) {
-  if (toReturn === "value") {
-    return Math.min(...arr);
-  } else {
-    return arr.indexOf(Math.min(...arr));
-  }
-}
 
