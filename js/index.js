@@ -1,4 +1,4 @@
-document.addEventListener("partialsLoaded", () => {
-  import("./burger-menu.js");
-  import('./home-our-menu.js');
+document.addEventListener("partialsLoaded", async () => {
+  await import("./burger-menu.js");
+  await import('./home-our-menu.js');
 });
