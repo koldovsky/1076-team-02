@@ -49,11 +49,6 @@
     border-bottom: 3px solid var(--blog-button-hover-color)
 }
 
-#ice-cream,
-#drinks {
-    display: none;
-}
-
 .menu-pages {
     display: grid;
     grid-template-columns: 1fr;
