@@ -16,7 +16,7 @@ const articles = [
     {
         id: "3",
         name: "Celebrate Birthdays with Us!",
-        description: "Mr. Snowman's Birthday Parties are great for kids of all ages. We have lots of sweet treats and fun.",
+        description: "Mr. Snowman's Birthday Parties are great for kids of all ages. We have lots of sweet treats.",
         imageDescription: "Ice cream for birthday parties",
         image: "images/blog-card-birthday.png"
     },
