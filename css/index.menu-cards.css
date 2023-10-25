@@ -1,43 +1,50 @@
 .menu__cards {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 10px;
-	margin: 20px 0;
+	grid-gap: 30px;
+	max-width: 1200px;
+    margin: 0 auto;
+	padding: 0 40px;
+}
+
+.card_desserts {
+	background-image: url(../images/desserts_menu.png);
+}
+
+.card_milkshakes {
+	background-image: url(../images/milk_shakes_menu.png);
+}
+
+.card_icecream {
+	background-image: url(../images/ice_cream_menu.png);
 }
 
 .menu__card {
-	position: relative;
-	padding: 20px;
-}
-
-.card__image {
-	max-width: 100%;
-	height: auto;
-	display: block;
-	width: 100%;
-	max-height: 500px;
-	object-fit: cover;
+	bottom: 0;
+	padding: 200px 50px;
+	background-size: cover;
+	background-position: center;
 	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .card__title {
-	position: absolute;
+	text-align: center;
 	color: var(--text-color);
 	font-family: 'Dangrek', cursive;
-	text-align: center;
-	top: 20%;
-	left: 33%;
-	font-size: 30px;
+	font-size: 36px;
 	font-style: normal;
 	font-weight: 400;
-	margin: 0
-}
+	text-transform: none;
+	vertical-align: baseline;
+	}
 
-.card__button1 {
-	position: absolute;
+.card__buttonDessert {
+	position: relative;
 	bottom: 10px;
-	top: 60%;
-	left: 33%;
 	color: var(--text-color);
 	background-color: var(--background-color-dark);
 	font-family: 'Source Sans 3', sans-serif;
@@ -51,11 +58,9 @@
 	width: 150px;
 }
 
-.card__button2 {
-	position: absolute;
+.card__buttonMilkshake {
+	position: relative;
 	bottom: 10px;
-	top: 60%;
-	left: 33%;
 	color: var(--text-color);
 	background-color: var(--about-us-background-color-light);
 	font-family: 'Source Sans 3', sans-serif;
@@ -68,11 +73,9 @@
 	width: 150px;
 }
 
-.card__button3 {
-	position: absolute;
+.card__buttonIcecream {
+	position: relative;
 	bottom: 10px;
-	top: 60%;
-	left: 33%;
 	color: var(--text-color);
 	background-color: var(--background-color-dark);
 	font-family: 'Source Sans 3', sans-serif;
@@ -86,31 +89,20 @@
 	width: 150px;
 }
 
-.card__button1:hover {
+.card__buttonDessert:hover {
 	background-color: var(--about-us-background-color-light);
 }
 
-.card__button2:hover {
+.card__buttonMilkshake:hover {
 	background-color: var(--background-color-dark);
 }
 
-.card__button3:hover {
+.card__buttonIcecream:hover {
 	background-color: var(--about-us-background-color-light);
 }
 
 @media (max-width: 768px) {
 	.menu__cards {
 		grid-template-columns: 1fr;
-	}
-
-	.menu__card {
-		height: auto;
-	}
-
-	.card__image {
-		max-height: none;
-		height: 180px;
-		max-width: 100%;
-		object-fit: cover;
 	}
 }
