@@ -167,7 +167,7 @@ function renderMenuPosition(positions) {
           </div>
           `;
     }
-    const menuPageContainer = document.querySelector(".menu-pages"); //`#${id}`);
+    const menuPageContainer = document.querySelector(".menu-pages");
     menuPageContainer.innerHTML = menuPositionsDomString;
 }
   
