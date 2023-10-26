@@ -3,8 +3,9 @@
 	grid-template-columns: 1fr;
 	grid-gap: 30px;
 	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 24px;
+	padding: 24px;
+	padding-top: 600px;
+	padding-bottom: 100px;
 }
 
 .card_desserts {
@@ -97,6 +98,7 @@
 @media (min-width: 768px) {
 	.menu__cards {
 		grid-template-columns: 1fr 1fr;
+		padding-top: 300px;
 	}
 
 	.menu__card {
