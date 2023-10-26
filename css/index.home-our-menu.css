@@ -63,13 +63,15 @@
 }
 
 .menu-position-img {
-    width: 90%;
     margin: auto;
+    height: 265px;
 }
 
 .menu-position-img img{
     display: block;
-    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
 }
 
 .menu-position-text {
