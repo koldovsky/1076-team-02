@@ -1,6 +1,6 @@
-document.addEventListener("partialsLoaded", () => {
-  import("./burger-menu.js");
-  import('./home-our-menu.js');
-  import('./blog.js');
-  import('./section-carousel-price.js');
+document.addEventListener("partialsLoaded", async () => {
+  await import("./burger-menu.js");
+  await import('./home-our-menu.js');
+  await import('./blog.js');
+  await import('./section-carousel-price.js');
 });
