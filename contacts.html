@@ -119,15 +119,7 @@
     <!-- MAP AND FORM -->
     <div class="contacts__nav-map-and-form">
         <div id="map" class="contacts__nav-map">
-            <script type="text/javascript">
-                var map = L.map('map').setView([50.45, 30.52], 17);
-                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(map);
-
-                var marker = L.marker([50.45, 30.52]).addTo(map)
-                .bindPopup('Mr. Snowman Cafe').openPopup()
-                map.panTo(new L.LatLng(50.45, 30.52));  
-
-            </script>
+            <script src="js/contacts-map.js"></script>
         </div>
 
         <div class="contacts__nav-form">
@@ -159,7 +151,7 @@
                         <path d="M-0.000152588 161L840 161L1260 161L1680 161L2100 161L1890 51.5001C1758.41 -17.1163 1601.59 -17.1178 1470 51.496C1338.41 120.108 1181.59 120.108 1050 51.4952C918.408 -17.1179 761.592 -17.1178 629.999 51.4953C498.407 120.108 341.594 120.108 210.002 51.496C78.4079 -17.1178 -78.4074 -17.1162 -210.001 51.5003L-420 161L-0.000152588 161Z"></path></pattern>
                     </defs>
                     <rect x="0" y="0" width="100%" height="100%" fill="url(#wave-fc6f52da-174e-4498-a182-d22774874d5c)"></rect></svg>
-        </div>  
+    </div>  
 </section>
 </main>
     <footer data-include="footer.partial.html"></footer>
