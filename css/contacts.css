@@ -1,4 +1,9 @@
-@import url(index.css);
+/*@import url(index.css);*/
+@import url(header-nav.css);
+@import url(footer.css);
+@import url(contacts.css);
+@import url(global.css);
+
 
 
 .header-background{
