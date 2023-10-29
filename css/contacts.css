@@ -1,3 +1,7 @@
+@import url(header-nav.css);
+@import url(footer.css);
+
+
 .header-background{
     background-color: var(--price-color);
 }
