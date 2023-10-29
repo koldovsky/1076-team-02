@@ -71,9 +71,6 @@
     background-color: var(--contacts-background-color-secondary);
 }
 
-.text-popup{
-    color: var(--text-color-button-carousel);
-}
 
 
 @media (min-width: 150px) {
@@ -147,7 +144,7 @@
     }
     .contacts__nav-map-and-form div{
         padding: .5em;
-        color: white;
+        color: var(--text-color-button-carousel);
         flex: 1;
     }
 
@@ -306,7 +303,7 @@
     .contacts__nav-map-and-form div{
 
           padding: .5em;
-          color: white;
+          color: var(--text-color-button-carousel);
           flex: 1;
     }
 
