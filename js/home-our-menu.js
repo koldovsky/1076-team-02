@@ -179,6 +179,10 @@ let menuNavSectionsButton = document.querySelectorAll(
   
 menuNavSectionsButton.forEach((button) => {
     button.addEventListener("click", (_) => {
+      menuNavSectionsButton.forEach((button) => {
+        button.classList.remove("menu-nav-sections-button-active")
+      });
+      button.classList.toggle("menu-nav-sections-button-active");
       renderMenuPosition(menuPages[`${button.dataset.id}`]);
     });
 });

@@ -43,9 +43,15 @@
     font-size: 18px;
     border: none;
     padding: 15px 20px;
+    opacity: .6;
 }
 
 .menu-nav-sections-button:hover {
+    opacity: 1;
+}
+
+.menu-nav-sections-button-active {
+    opacity: 1;
     border-bottom: 3px solid var(--blog-button-hover-color)
 }
 
