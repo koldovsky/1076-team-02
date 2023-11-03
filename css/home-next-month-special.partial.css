@@ -1,5 +1,5 @@
-.cards {
-    padding: 60px 16px;
+.cards .global-container {
+    padding: 60px 0 100px 16px;
 }
 
 .images {
@@ -19,15 +19,16 @@
     border-radius: 10px;
     width: 63%;
     padding: 0 80px;
+    margin-left: 24px;
     font-family: "Leckerli One";
     font-size: 21px;
-    display: flex ;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .image-container-content {
-    display: flex ;
+    display: flex;
     flex-direction: column;
 }
 
@@ -43,6 +44,7 @@
     width: fit-content;
 
 }
+
 .text-content {
     font-family: "Dangrek";
     font-size: 48px;
@@ -57,13 +59,14 @@
     border-radius: 10px;
     text-align: center;
     padding-top: 32px;
+    margin-right: 20px;
 }
 
 .title-content {
     color: #32264B;
     font-family: "Dangrek";
     font-size: 28px;
-    line-height: 40px ;
+    line-height: 40px;
 }
 
 a.btn {
@@ -71,4 +74,85 @@ a.btn {
     background-color: #32264B;
     margin: auto;
     margin-top: 30px;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    padding: 40px 24px;
+    flex: 1;
+    float: left;
+
+}
+section.strawberry {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+li {
+    display: flex;
+    gap: 12px;
+}
+
+li svg {
+    width: 40px;
+    height: 40px;
+} 
+
+img#strawberry {
+    width: 550px;
+    float: right;
+}
+
+.svg-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: #32264B;
+    border-radius: 50%; 
+}
+
+.list {
+    margin-left: 20px ;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title-special {
+    color: #FFFFFF;
+    font-family: "Leckerli One";
+    font-size: 21px;
+}
+
+.text-content-taste {
+    color: #FFFFFF;
+    font-family: "Dangrek";
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.title-list {
+    font-family: "Source Sans 3";
+    color: rgb(220, 220, 231);
+    font-size: 21px;
+}
+
+.name-text p:first-child {
+    color: #FFFFFF;
+    font-family: "Dangrek";
+    font-size: 26px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.name-text p:last-child {
+    color: #B9B1C5;
+    font-family: "Source Sans 3";
+    font-size: 18px;    
 }
