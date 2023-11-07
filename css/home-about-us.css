@@ -13,7 +13,7 @@ background-color: var(--about-us-background-color-light);
      font-family: "Leckerli One", undefined;
  }
 
-.home-about-us-header{
+.home-about-us-head{
     color: var(--about-us-header-color);
     font: 41px;
     font-family: "Dangrek", cursive;
@@ -30,4 +30,20 @@ background-color: var(--about-us-background-color-light);
 .home-about-us-story{
     font: 18px;
     font-family: 'Source Sans 3', sans-serif;
+    color: var(--text-color-alternative);
+    text-align: center;
+}
+
+.home-about-us-imeges{
+    height: 40px;
+    width: 40px;
+    background-color: var(--about-us-background-color-dark);
+    background-size: 70px;
+    border-radius: 100%;
+    align-content: center;
+    
+}
+
+.home-about-us-item1{
+    align-items: center;
 }
