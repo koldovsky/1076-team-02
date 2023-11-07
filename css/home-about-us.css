@@ -17,4 +17,5 @@ background-color: var(--about-us-background-color-light);
     color: var(--about-us-header-color);
     font: 41px;
     font-family: Dangrek, cursive;
+    text-align: center;
 }
