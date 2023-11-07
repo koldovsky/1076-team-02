@@ -83,6 +83,10 @@
     height: 100%;
   }
 
+  .header__nav-list-left {
+    margin-bottom: 0;
+  }
+
   .header__nav-logo-container {
     position: absolute;
     top: 30px;
