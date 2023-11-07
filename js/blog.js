@@ -39,3 +39,12 @@ function renderBlogArticles(articles) {
     const articlesContainer = document.querySelector('.blog__articles');
     articlesContainer.innerHTML = articlesDomString;
 }
+
+const blogNameElement = document.querySelector(".blog__name");
+const texts = ["Newest Updates", "Our Latest Articles"];
+let currentIndex = 0;
+function toggleDescription() {
+  blogNameElement.textContent = texts[currentIndex];
+  currentIndex = (currentIndex + 1) % texts.length;
+}
+setInterval(toggleDescription, 3000);
