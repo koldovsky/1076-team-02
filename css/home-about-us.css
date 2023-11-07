@@ -10,12 +10,24 @@ background-color: var(--about-us-background-color-light);
      color: var(--about-us-header-color);
      font: 17px;
      text-align: center;
-     font-family: 'Leckerli One', undefined;
+     font-family: "Leckerli One", undefined;
  }
 
 .home-about-us-header{
     color: var(--about-us-header-color);
     font: 41px;
-    font-family: Dangrek, cursive;
+    font-family: "Dangrek", cursive;
     text-align: center;
+}
+
+.home-about-us-mission{
+    text-align: center;
+    color: var(--text-color-alternative);
+    font: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.home-about-us-story{
+    font: 18px;
+    font-family: 'Source Sans 3', sans-serif;
 }
