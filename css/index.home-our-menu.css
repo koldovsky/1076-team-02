@@ -1,31 +1,33 @@
 /*font-family*/
-#home-our-menu h2 {
+.menu-headers-sections-name {
     font-family: 'Leckerli One', cursive;
     font-size: 14px;
 }
-#home-our-menu p,
-#home-our-menu button {
+.menu-headers-paragraph-welcome,
+.menu-nav-sections-button {
     font-family: 'Source Sans 3', sans-serif;
 }
-#home-our-menu .featured-desserts-treats,
-#home-our-menu h3 {
+.menu-headers-big-paragraph,
+.menu-position-name {
     font-family: 'Dangrek', cursive;
 }
 /*font-family*/
 
-.home-our-menu {
+#home-our-menu {
     padding: 60px 24px;
     text-align: center;
 }
 
-.menu-headers p {
+.menu-headers-paragraph-welcome {
     color: var(--text-color-alternative);
     font-size: 20px;
+    margin-top: 25px;
 }
 
-.menu-headers .featured-desserts-treats {
+.menu-headers-big-paragraph {
     font-size: 34px;
     color: var(--text-color);
+    margin-top: 20px;
 }
 .menu-nav {
     display: inline-flex;
@@ -35,16 +37,22 @@
     width: 100%;
 }
 
-#home-our-menu button {
+.menu-nav-sections-button {
     background-color: transparent;
     color: var(--text-color);
     font-size: 18px;
     border: none;
     padding: 15px 20px;
+    opacity: .6;
 }
 
-#home-our-menu button:hover {
-    border-bottom: 3px solid rgb(236, 151, 196);
+.menu-nav-sections-button:hover {
+    opacity: 1;
+}
+
+.menu-nav-sections-button-active {
+    opacity: 1;
+    border-bottom: 3px solid var(--blog-button-hover-color)
 }
 
 .menu-pages {
@@ -60,25 +68,32 @@
     padding: 5%;
 }
 
-.menu-position img {
+.menu-position-img {
     margin: auto;
+    height: 265px;
+}
+
+.menu-position-img img{
+    display: block;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
 }
 
 .menu-position-text {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-content: center;
     height: 30px;
 }
 
-.menu-position h3 {
+.menu-position-price,
+.menu-position-name {
     font-size: 22px;
 }
 
-.menu-position p{
+.menu-position-price{
     color: var(--price-color);
-    font-size: 22px;
 }
 
 @media (min-width: 768px){
@@ -90,5 +105,17 @@
 @media (min-width: 992px){
     .menu-pages {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .menu-nav{
+        justify-content: center;
+    }
+    .menu-headers-sections-name {
+        font-size: 21px;
+    }
+    .menu-headers-big-paragraph {
+        font-size: 48px;
+    }
+    .menu-headers-paragraph-welcome {
+        font-size: 20px;
     }
 }

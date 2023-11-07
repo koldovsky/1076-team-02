@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Leckerli+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Leckerli+One&family=Source+Sans+3:wght@200&display=swap');
-
-body {
-    background-color: #b87390;
-    color: white;
-}
-
+@import url(global.css);
 
 img {
     display: block;
     width: 100%;
 }
 
-.about_carousel-container {
+.about__carousel-container {
+    background-color: var(--about-us-background-color-light);
+    display:flex;
     margin: auto;
     max-width: 1200px;
+}
+
+.about_carousel-container {
+    margin: auto;
+    /* max-width: 1200px; */
    
 }
 
