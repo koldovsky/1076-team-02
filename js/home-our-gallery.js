@@ -1,12 +1,19 @@
 const textElement = document.querySelector(".gallery__name");
 const text = textElement.textContent;
 textElement.textContent = "";
-
-for (let i = 0; i < text.length; i++) {
-  setTimeout(function () {
-    textElement.textContent += text[i];
-    if (i === text.length - 1) {
-      textElement.style.opacity = 1;
+function animateText() {
+  let i = 0;
+  const animationInterval = setInterval(function () {
+    if (i < text.length) {
+      textElement.textContent += text[i];
+      i++;
+    } else {
+      clearInterval(animationInterval);
+      setTimeout(function () {
+        textElement.textContent = "";
+        animateText();
+      }, 3000);
     }
-  }, 100 * i);
+  }, 100);
 }
+animateText();
