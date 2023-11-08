@@ -1,4 +1,4 @@
-/*
+
 .questions {
     background-color: var(--about-us-background-color-light);
     max-width: 1200px;
@@ -20,6 +20,11 @@
     align-self: center;
     text-align: center;
 }
+.questions__accordion{
+    font-family: "Dangrek", cursive;
+    font-size: 18px;
+    color: var(--about-us-text-color); 
+}
 .questions__paragraph {
     font-family: "Source Sans 3", sans-serif;
     font-size: 18px;
@@ -36,15 +41,15 @@
 .questions__accordion-button {
     background: none;
     border: none;
-    padding: 0;
+    padding: 1%;
     font: inherit;
     cursor: pointer;
     text-decoration: underline;
 }
 
-*/
 
 
+/*
 
 .questions{
     max-width: 1200px;
@@ -78,4 +83,4 @@
     font: inherit;
     cursor: pointer;
     text-decoration: underline;
-}
+} */
