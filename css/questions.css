@@ -14,7 +14,7 @@
     line-height: normal;
 }
 .questions__header, .questions__paragraph, .questions__accordion{
-    min-width: 250px;
+    min-width: 290px;
     margin: 12px 1.5% 12px 1.5%;
     flex-grow: 1 ;
     flex-basis: 28%;
