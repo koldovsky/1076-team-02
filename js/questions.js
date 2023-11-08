@@ -1,7 +1,7 @@
 
 const accordionButtons = document.querySelectorAll('.questions__accordion-button');
 
-        accordionButtons.forEach(button => {п
+        accordionButtons.forEach(button => {
             button.addEventListener('click', () => {
                 const content = button.nextElementSibling;
 
