@@ -48,11 +48,9 @@ img {
 }
 
 .contact__button-container {
-    height: 68px;
-    width: 135px;
-    background-color: #a55376;
-    text-decoration: none;
-    border-radius: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .contact__button {
@@ -61,12 +59,27 @@ img {
     padding-top: 25px;
 }
 
-.contact__button-container:hover {
-    background-color: #a55376;
+
+
+.send__button {
+    width: 154px;
+    height: 59px;
+    color: var(--text-color);
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    transition: background-color 500ms;
 }
 
-.send__button:hover {
-    background-color: #a55376;
+.send__button:first-of-type {
+    background-color: var(--about-us-background-color-dark);
+}
+
+.send__button:first-of-type:hover {
+    background-color: var(--blog-button-color);
 }
 
 .carousel-member-container {
