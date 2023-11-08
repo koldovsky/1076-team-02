@@ -47,4 +47,4 @@ function toggleDescription() {
   blogNameElement.textContent = texts[currentIndex];
   currentIndex = (currentIndex + 1) % texts.length;
 }
-setInterval(toggleDescription, 3000);
+setInterval(toggleDescription, 4000);
