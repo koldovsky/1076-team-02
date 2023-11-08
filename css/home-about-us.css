@@ -3,19 +3,20 @@
 @import url(global.css);
 
 .home-about-us{
-background-color: var(--about-us-background-color-light);   
+background-color: var(--about-us-background-color-light);  
+padding: 10px;
 }
 
 .home-about-us-header{
      color: var(--about-us-header-color);
-     font: 17px;
+     font-size: 21px;
      text-align: center;
      font-family: "Leckerli One", undefined;
- }
+}
 
-.home-about-us-head{
+.home-about-us-head {
     color: var(--about-us-header-color);
-    font: 41px;
+    font-size: 41px;
     font-family: "Dangrek", cursive;
     text-align: center;
 }
@@ -23,27 +24,82 @@ background-color: var(--about-us-background-color-light);
 .home-about-us-mission{
     text-align: center;
     color: var(--text-color-alternative);
-    font: 20px;
+    font-size: 20px;
     font-family: 'Source Sans 3', sans-serif;
+    max-height: 74px;
 }
 
 .home-about-us-story{
-    font: 18px;
+    display: flex;
+    font-size: 18px;
     font-family: 'Source Sans 3', sans-serif;
     color: var(--text-color-alternative);
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 200px;
+    margin-top: 50px;
+    max-width: 470px;
     text-align: center;
+
+}
+
+.home-about-us-imeges-backgrounds{
+    background-color: var(--about-us-background-color-dark);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
 
 .home-about-us-imeges{
-    height: 40px;
-    width: 40px;
+    display: flex;
+    max-height: 40px;
+    max-width: 40px;
     background-color: var(--about-us-background-color-dark);
-    background-size: 70px;
-    border-radius: 100%;
-    align-content: center;
-    
+    align-items: center;
+    background-size: 50px;
+    margin: auto;
+}
+
+.home-about-us-imeges-container{
+    display: flex;
+    flex-direction: row;
 }
 
 .home-about-us-item1{
-    align-items: center;
+    margin: auto;
+    text-align: center ;
+}
+
+.home-about-us-item2{
+    margin: auto;
+    text-align: center ;
+}
+
+.home-about-us-item3{
+    margin: auto;
+    text-align: center ;
+}
+
+.home-about-us-item4{
+    margin: auto;
+    text-align: center ;
+}
+
+.home-about-us-imeges-story{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Source Sans 3', sans-serif;
+    color: var(--text-color-alternative);
+}
+
+@media (max-width: 768px){
+    .home-about-us-imeges-container{
+        display: flex;
+        flex-direction: column;
+    }
 }
