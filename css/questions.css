@@ -1,3 +1,4 @@
+/*
 .questions {
     background-color: var(--about-us-background-color-light);
     max-width: 1200px;
@@ -36,6 +37,44 @@
     background: none;
     border: none;
     padding: 0;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+*/
+
+
+
+.questions{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.questions__header, .questions__paragraph, .questions__accordion{
+    min-width: 250px;
+    margin: 2%1.5% 2% 1.5%;
+    flex-grow: 1 ;
+    flex-basis: 28%;
+    align-self: center;
+    text-align: center;
+}
+
+.questions__accordion-item{
+    display: grid;
+}
+ .questions__accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    
+}
+.questions__accordion-button {
+    background: none;
+    border: none;
+    padding: 1%;
     font: inherit;
     cursor: pointer;
     text-decoration: underline;
