@@ -39,12 +39,14 @@
     transition: max-height 0.3s ease;
 }
 .questions__accordion-button {
-    background: none;
+    color: var(--about-us-text-color); 
+   /* background: none;
     border: none;
     padding: 1%;
     font: inherit;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: underline; 
+    */
 }
 
 
