@@ -1,10 +1,32 @@
 <section class="cards global-container">
-    <div class="images">
+    <div id="special" class="images">
         <div class="image-container">
             <div class="image-container-content">
                 <span>Book a Table</span>
                 <span class="text-content">Hurry Up to Book the <br /> Coziest Table Now!</span>
-                <button class="btn">Book a Table</button>
+                <button class="btn btn-open">Book a Table</button>
+                <div class="modal-container hidden">
+                    <div class="overlay">
+                    </div>
+                    <section class="modal">
+                        <div class="flex">
+                            <div class="btn-close">⨉</div>
+                        </div>
+                        <div class="modal-title">
+                            <h3>Booking</h3>
+                            <p>Book a Table</p>
+                            <p>Please fill out the form below</p>
+                        </div>
+                        <div class="inputs">
+                            <input type="name" id="name" placeholder="Your Name*" />
+                            <input type="phone" id="phone" placeholder="Phone Number*" />
+                            <input type="email" id="email" placeholder="Email*" />
+                            <input class="choose-date" type="date" id="date" placeholder="10.23.2002*" />
+                            <input type="Number of people" id="Number of people" placeholder="Number of people*" />
+                        </div>
+                        <button class="btn-submit">Book a Table</button>
+                    </section>
+                </div>
             </div>
         </div>
         <div class="image-container-first">
