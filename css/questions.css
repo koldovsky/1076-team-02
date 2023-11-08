@@ -1,13 +1,23 @@
 .questions {
     background-color: var(--about-us-background-color-light);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 80px;
+    max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
 }
 .questions__header {
     font-family: "Dangrek", cursive;
     font-size: 30px;
     line-height: normal;
+}
+.questions__header, .questions__paragraph, .questions__accordion{
+    min-width: 250px;
+    margin: 12px 1.5% 12px 1.5%;
+    flex-grow: 1 ;
+    flex-basis: 28%;
+    align-self: center;
+    text-align: center;
 }
 .questions__paragraph {
     font-family: "Source Sans 3", sans-serif;
@@ -15,7 +25,11 @@
     color: var(--about-us-text-color); 
     line-height: 28,8px;
 }
-.questions__header, .questions__paragraph, .questions__accordion {
-    text-align: center;
-    width: 75%; 
+.questions__accordion-item{
+    display: grid;
+}
+ .questions__accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
 }
