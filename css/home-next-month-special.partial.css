@@ -109,8 +109,9 @@
 
 .btn-close {
     position: absolute;
-    margin-right: -15%;
+    margin-right: -14%;
     cursor: pointer;
+    margin-bottom: -20px;
 }
 
 .modal-title {
@@ -210,6 +211,15 @@ a.btn {
     background-color: #32264B;
     margin: auto;
     margin-top: 30px;
+     transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+a:hover {
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    background-color: #DB7093;
 }
 
 .text-container {
