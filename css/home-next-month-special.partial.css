@@ -85,6 +85,9 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    box-shadow: none;
+    text-overflow: ellipsis;
+    appearance: none;
 }
 .modal .choose-date {
     color:#717073
